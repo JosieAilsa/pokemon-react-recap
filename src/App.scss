@@ -1,0 +1,11 @@
+@use "./styles/variables" as *;
+
+* {
+  font-family: $primary-font;
+  color: $color-primary;
+}
+
+body {
+  background-color: $color-background;
+  padding: 1rem;
+}
